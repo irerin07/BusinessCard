@@ -22,7 +22,7 @@ public class FriendUI {
         return friend;
     }
 
-    public String inputNAme(){
+    public String inputName(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("이름을 입력하세요");
         String name = scanner.nextLine();
